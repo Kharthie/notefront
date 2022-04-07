@@ -26,7 +26,7 @@ export default function CreateNote() {
                     title, content, date
                 }
 
-                await axios.post('http://localhost:5000/api/notes', newNote, {
+                await axios.post('https://noteappback.herokuapp.com/api/notes', newNote, {
                     headers: {Authorization: token}
                 })
                 
