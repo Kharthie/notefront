@@ -50,7 +50,7 @@ export default function Home() {
                             <Link to={`edit/${note._id}`} >Edit</Link>
                         </div>
                         <button className="close" 
-                        onClick={() => deleteNote(note._id)} >X</button>
+                        onClick={() => deleteNote(note._id)} >🗑️</button>
                     </div>
                 ))
             }
