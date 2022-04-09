@@ -15,7 +15,7 @@ code {
 }
 
 body{
-  background: rgb(9, 7, 131);
+  background: lightgoldenrodyellow;
 }
 .notes-page{
   width: 100%;
@@ -34,7 +34,8 @@ body{
 }
 a{
   text-decoration: none;
-  color: whitesmoke;
+  /* color: whitesmoke; */
+  color: black;
 }
 .notes-page header .logo{
   text-transform: uppercase;
@@ -63,11 +64,15 @@ a{
   flex-wrap: wrap;
   justify-content: space-around;
   margin: auto;
+  
+}
+.h1{
+  color: black;
 }
 .card{
   width: 300px;
-  box-shadow: 0 0 5px rgb(7,25,63);
-  background: rgb(8, 153, 211);
+  box-shadow: 0 0 8px rgb(7,25,63);
+  background: rgb(38, 138, 8);
   padding: 10px;
   position: relative;
   color: #ddd;
@@ -83,7 +88,7 @@ a{
   background: transparent;
   border: none;
   outline: none;
-  color: rgb(245, 13, 13);
+  color: rgb(219, 46, 46);
 }
 .card h4{
   margin-right: 10px;
@@ -122,7 +127,7 @@ a{
   margin: auto;
   border: 10px solid #ccc;
   padding: 30px;
-  background-color: rgb(8, 153, 211);
+  background-color: rgb(4, 120, 165);
 }
 .create-note h2{
   letter-spacing: 2px;
@@ -179,11 +184,11 @@ a{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: rgb(8, 153, 211);
+  background: lightsteelblue;
 }
 .login-page h2,
 .login-page h3{
-  color: #fff8;
+  color: rgba(58, 48, 48, 0.533);
 }
 .login-page h3{
     text-align: center;
@@ -192,7 +197,7 @@ a{
 }
 .login-page p{
   margin: 10px 0;
-  color: white;
+  color: rgb(68, 46, 46);
 }
 .login-page span:hover{
   color: orange;
